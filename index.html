@@ -155,26 +155,34 @@
           <li>
             Go to the GitHub repo in the browser, where the main branch is
             displayed by default. Select the branch feature/starter-code from
-            the dropdown. Next, select the "Compare & pull request" button
+            the dropdown.
+          </li>
+          <li>Click the "Pull Requests" tab at the top, as shown in the following image</li>
+          <li>Once on the pull requests page, find and click the "New pull request" button</li>
+          <li>
+            Now we need to compare the two branches that we want to merge. The base branch that we want to merge into should come first. In our case, this is the main branch. We want to merge our feature/your-name-branch, so that is our compare branch. 
+          </li>
+
+          <li>
+            Once on the pull request form, give your PR a title and a short description of the changes
           </li>
           <li>
-            Next we'll give the pull request (PR) a descriptive title, add
-            instructions for team members that will review the PR about what
-            changes were made
-          </li>
-          <li>
-            Since we would like to merge the starter code in the feature branch
-            into the main branch, we must designate the base branch as main and
-            the comparison branch as feature/your-name-branch
-          </li>
-          <li>
-            Next, select the "Create Pull Request" button to make your first PR
+            Next, select the "Create Pull Request" button to make your PR
           </li>
           <li>
             In the workplace and when working collaboratively as a team, once a
             PR has been created, we would request that one or two other team
             members review the code before it is merged into the base branch.
           </li>
+          <li>if your PR reviwed and approved It is time to merge our new feature into our main codebase! Click the "Merge pull request" button and confirm</li>
+          <li>Let's make sure that we close our HTML issue on GitHub since we have merged in the feature associated with it. Navigate to the "Issues" tab on GitHub</li>
+          <li>Click on the issue that was completed then clik the <q>Close issue</q></li>
+          <span><b>Note:</b>Always update your local repository with the changes that we made to the main one in Github and state current to avoid conflics: this are the command you will use assuming the main is the base repo</span>
+          <pre>
+            git checkout main 
+            git pull origin main
+          </pre>
+
         </ol>
 
         <!-- CSS SECTION-->
