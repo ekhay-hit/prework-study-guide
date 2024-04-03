@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets//style.css" />
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="top">
-      <h2>Prework Study Guide</h2>
+      <h1>Prework Study Guide</h1>
+
       <img
         src="./assets/bowtie-cat.png"
         alt="Profile image of cat wearing a bow tie."
@@ -17,7 +19,7 @@
     <main>
       <!-- HTML SECTION-->
       <section class="card" id="html-section">
-        <h2 style="color: red">HTML</h2>
+        <h2>HTML</h2>
         <p>
           Hypertext Markup Language (HTML) is one of the three cornerstone
           languages used in web development: HTML, CSS, and JS. HTML is used to
@@ -46,18 +48,17 @@
 
       <!-- GIT SECTION-->
       <section class="card" id="git-section">
-        <h2 style="color: red">Git</h2>
+        <h2>Git</h2>
         <a
           href="https://education.github.com/git-cheat-sheet-education.pdf"
           Alt="Git Cheat Sheet"
           >Git Cheat Sheet</a
         >
-        <br />
+        
         <a
           href="https://digital.gov/resources/an-introduction-github/"
           Alt="An introduction to GitHub"
-          >Introduction to Github</a
-        >
+          >Introduction to Github</a>
 
         <p>
           Git is a version control system that lets you manage and keep track of
@@ -69,7 +70,7 @@
           GitHub not only allows us to store our code, but also to easily
           collaborate with others.
         </p>
-
+          <h3>Git cammands</h3>
         <ul>
           <li>git status: checks what branch we are currently on</li>
           <li>
@@ -83,7 +84,7 @@
           <li>git pull origin main: pulled the changes from the main branch</li>
           <li>git push: pushed the change to github</li>
         </ul>
-        <h3>Steps to Create a new branch</h3>
+        <h3>Steps to create a new branch</h3>
         <ol>
           <li>
             You should be in main, if not switch to main branch
@@ -157,47 +158,81 @@
             displayed by default. Select the branch feature/starter-code from
             the dropdown.
           </li>
-          <li>Click the "Pull Requests" tab at the top, as shown in the following image</li>
-          <li>Once on the pull requests page, find and click the "New pull request" button</li>
           <li>
-            Now we need to compare the two branches that we want to merge. The base branch that we want to merge into should come first. In our case, this is the main branch. We want to merge our feature/your-name-branch, so that is our compare branch. 
+            Click the "Pull Requests" tab at the top, as shown in the following
+            image
+          </li>
+          <li>
+            Once on the pull requests page, find and click the "New pull
+            request" button
+          </li>
+          <li>
+            Now we need to compare the two branches that we want to merge. The
+            base branch that we want to merge into should come first. In our
+            case, this is the main branch. We want to merge our
+            feature/your-name-branch, so that is our compare branch.
           </li>
 
           <li>
-            Once on the pull request form, give your PR a title and a short description of the changes
+            Once on the pull request form, give your PR a title and a short
+            description of the changes
           </li>
-          <li>
-            Next, select the "Create Pull Request" button to make your PR
-          </li>
+          <li>Next, select the "Create Pull Request" button to make your PR</li>
           <li>
             In the workplace and when working collaboratively as a team, once a
             PR has been created, we would request that one or two other team
             members review the code before it is merged into the base branch.
           </li>
-          <li>if your PR reviwed and approved It is time to merge our new feature into our main codebase! Click the "Merge pull request" button and confirm</li>
-          <li>Let's make sure that we close our HTML issue on GitHub since we have merged in the feature associated with it. Navigate to the "Issues" tab on GitHub</li>
-          <li>Click on the issue that was completed then clik the <q>Close issue</q></li>
-          <span><b>Note:</b>Always update your local repository with the changes that we made to the main one in Github and state current to avoid conflics: this are the command you will use assuming the main is the base repo</span>
+          <li>
+            if your PR reviwed and approved It is time to merge our new feature
+            into our main codebase! Click the "Merge pull request" button and
+            confirm
+          </li>
+          <li>
+            Let's make sure that we close our HTML issue on GitHub since we have
+            merged in the feature associated with it. Navigate to the "Issues"
+            tab on GitHub
+          </li>
+          <li>
+            Click on the issue that was completed then clik the
+            <q>Close issue</q>
+          </li>
+          <span
+            ><b>Note:</b>Always update your local repository with the changes
+            that we made to the main one in Github and state current to avoid
+            conflics: this are the command you will use assuming the main is the
+            base repo</span
+          >
           <pre>
             git checkout main 
             git pull origin main
           </pre>
-
         </ol>
 
         <!-- CSS SECTION-->
       </section>
 
       <section class="card" id="css-section">
-        <h2 style="color: red">CSS</h2>
+        <h2>CSS</h2>
+
+        <h3>Links</h3>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" alt="css docs">Cascading Style Sheets Docs</a>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>internal style sheet contains CSS rules for the webpage in the head section of the HTML file</li>
+          <li>Inline styles apply to a specific HTML tag, using a style attribute with a CSS rule to style a particular page element only</li>
+          <li>External CSS style sheet allows developers to keep all their CSS rules in a separate file, which makes design changes easier</li>
+          <li>we link the CCS using the following between angle bracket link rel="stylesheet" href="url to the css' file"</li>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
+
+          <li></li>
+          <li></li>
         </ul>
       </section>
 
       <!-- JavaScript SECTION-->
       <section class="card" id="javascript-section">
-        <h2 style="color: red">JavaScript</h2>
+        <h2>JavaScript</h2>
         <ul>
           <li>Enter your not here</li>
         </ul>
