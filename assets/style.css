@@ -11,9 +11,14 @@ footer {
   color: white;
 }
 
-h1,
+h1{
+  text-align: center;
+ 
+}
+
 h2 {
   text-align: center;
+  color:Red;
 }
 img {
   display: block;
